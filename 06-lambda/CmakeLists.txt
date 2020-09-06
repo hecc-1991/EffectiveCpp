@@ -1,0 +1,8 @@
+
+project(06-lambda)
+
+get_filename_component()
+
+set(SRC_lambda ${CMAKE_SOURCE_DIR}/06-lambda/test31.cpp)
+source_group_by_dir(SRC_lambda)
+add_executable(test31 ${SRC_lambda})
