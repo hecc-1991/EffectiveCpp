@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION  3.15)
 
+set(CMAKE_CXX_STANDARD 17)
+
 #vs工程添加source filter
 macro(source_group_by_dir source_files)
 
@@ -20,3 +22,5 @@ endmacro(source_group_by_dir)
 project(EffectiveCpp)
 
 add_subdirectory(06-lambda)
+
+add_subdirectory(07-concurrency)
